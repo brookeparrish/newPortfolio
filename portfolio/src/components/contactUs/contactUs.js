@@ -2,7 +2,9 @@ import React from 'react';
 
 function ContactUs() {
     return (
-        <div>Contact Us</div>
+        <div className="mx-auto text-center mb-5 pt-5 pb-5">
+            <a className="btn btn-outline-primary" href="mailto:parrish.e.brooke@gmail.com">Contact Me</a>
+        </div>
     );
 }
 
